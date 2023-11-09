@@ -1,0 +1,266 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     feature_values_v3
+Instances:    162
+Attributes:   73
+              SpectralCentroidOverallStandardDeviation
+              SpectralRolloffPointOverallStandardDeviation
+              SpectralFluxOverallStandardDeviation
+              CompactnessOverallStandardDeviation
+              SpectralVariabilityOverallStandardDeviation
+              RootMeanSquareOverallStandardDeviation
+              FractionOfLowEnergyWindowsOverallStandardDeviation
+              ZeroCrossingsOverallStandardDeviation
+              StrongestBeatOverallStandardDeviation
+              BeatSumOverallStandardDeviation
+              StrengthOfStrongestBeatOverallStandardDeviation
+              LPCOverallStandardDeviation/v/0
+              LPCOverallStandardDeviation/v/1
+              LPCOverallStandardDeviation/v/2
+              LPCOverallStandardDeviation/v/3
+              LPCOverallStandardDeviation/v/4
+              LPCOverallStandardDeviation/v/5
+              LPCOverallStandardDeviation/v/6
+              LPCOverallStandardDeviation/v/7
+              LPCOverallStandardDeviation/v/8
+              LPCOverallStandardDeviation/v/9
+              MethodofMomentsOverallStandardDeviation/v/0
+              MethodofMomentsOverallStandardDeviation/v/1
+              MethodofMomentsOverallStandardDeviation/v/2
+              MethodofMomentsOverallStandardDeviation/v/3
+              MethodofMomentsOverallStandardDeviation/v/4
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/0
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/1
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/3
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/6
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/9
+              SpectralCentroidOverallAverage
+              SpectralRolloffPointOverallAverage
+              SpectralFluxOverallAverage
+              CompactnessOverallAverage
+              SpectralVariabilityOverallAverage
+              RootMeanSquareOverallAverage
+              FractionOfLowEnergyWindowsOverallAverage
+              ZeroCrossingsOverallAverage
+              StrongestBeatOverallAverage
+              BeatSumOverallAverage
+              StrengthOfStrongestBeatOverallAverage
+              LPCOverallAverage/v/0
+              LPCOverallAverage/v/1
+              LPCOverallAverage/v/2
+              LPCOverallAverage/v/3
+              LPCOverallAverage/v/4
+              LPCOverallAverage/v/5
+              LPCOverallAverage/v/6
+              LPCOverallAverage/v/7
+              LPCOverallAverage/v/8
+              LPCOverallAverage/v/9
+              MethodofMomentsOverallAverage/v/0
+              MethodofMomentsOverallAverage/v/1
+              MethodofMomentsOverallAverage/v/2
+              MethodofMomentsOverallAverage/v/3
+              MethodofMomentsOverallAverage/v/4
+              AreaMethodofMomentsofMFCCsOverallAverage/v/0
+              AreaMethodofMomentsofMFCCsOverallAverage/v/1
+              AreaMethodofMomentsofMFCCsOverallAverage/v/2
+              AreaMethodofMomentsofMFCCsOverallAverage/v/3
+              AreaMethodofMomentsofMFCCsOverallAverage/v/4
+              AreaMethodofMomentsofMFCCsOverallAverage/v/5
+              AreaMethodofMomentsofMFCCsOverallAverage/v/6
+              AreaMethodofMomentsofMFCCsOverallAverage/v/7
+              AreaMethodofMomentsofMFCCsOverallAverage/v/8
+              AreaMethodofMomentsofMFCCsOverallAverage/v/9
+              label
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                                                                           Class
+Variable                                                                    Calm                   Happy
+========================================================================================================
+SpectralCentroidOverallStandardDeviation                                 -0.0074                 -1.5545
+SpectralRolloffPointOverallStandardDeviation                            -99.5288                -88.8586
+SpectralFluxOverallStandardDeviation                                   13299.398              20230.6016
+CompactnessOverallStandardDeviation                                       -0.105                  0.2225
+SpectralVariabilityOverallStandardDeviation                           10537.1556               2809.8281
+RootMeanSquareOverallStandardDeviation                                  2438.313               -109.1434
+FractionOfLowEnergyWindowsOverallStandardDeviation                       72.9846              -1050.7429
+ZeroCrossingsOverallStandardDeviation                                     0.1399                 -1.7616
+StrongestBeatOverallStandardDeviation                                    -1.7596                 -0.7201
+BeatSumOverallStandardDeviation                                          -0.2174                 -0.1013
+StrengthOfStrongestBeatOverallStandardDeviation                       26114.9399             104534.3093
+LPCOverallStandardDeviation/v/0                                        1005.1922                -47.3289
+LPCOverallStandardDeviation/v/1                                         828.5372                 20.6992
+LPCOverallStandardDeviation/v/2                                        -576.3495                -231.516
+LPCOverallStandardDeviation/v/3                                       -1138.2303                -39.0721
+LPCOverallStandardDeviation/v/4                                         404.2847               -304.3092
+LPCOverallStandardDeviation/v/5                                         240.2092                 27.2892
+LPCOverallStandardDeviation/v/6                                        -831.2348                 28.6722
+LPCOverallStandardDeviation/v/7                                         968.1831                1721.415
+LPCOverallStandardDeviation/v/8                                       -1254.0601              -1604.7583
+MethodofMomentsOverallStandardDeviation/v/0                             693.6504                693.4165
+MethodofMomentsOverallStandardDeviation/v/1                              -8.9503                  3.5916
+MethodofMomentsOverallStandardDeviation/v/2                              -0.0766                 -0.0252
+MethodofMomentsOverallStandardDeviation/v/3                              -0.0001                  0.0008
+MethodofMomentsOverallStandardDeviation/v/4                                    0                      -0
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/0                  -23.3261                -20.2034
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/1                    -1.526                 -2.9296
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2                     0.005                  0.0003
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/3                         0                       0
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4                         0                      -0
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5                         0                      -0
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/6                        -0                       0
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7                         0                      -0
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8                         0                      -0
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/9                         0                      -0
+SpectralCentroidOverallAverage                                            -1.887                  0.0974
+SpectralRolloffPointOverallAverage                                     -514.4715                110.2813
+SpectralFluxOverallAverage                                            -9783.3146              13551.5236
+CompactnessOverallAverage                                                  0.274                 -0.1543
+SpectralVariabilityOverallAverage                                    -33842.3689             -18841.9077
+RootMeanSquareOverallAverage                                           -683.4059               -285.4139
+FractionOfLowEnergyWindowsOverallAverage                               -283.4274               -398.4552
+ZeroCrossingsOverallAverage                                              -0.7678                   0.543
+StrongestBeatOverallAverage                                              -0.7734                 -0.6739
+BeatSumOverallAverage                                                      0.089                 -0.0681
+StrengthOfStrongestBeatOverallAverage                                 26153.6677              -23157.373
+LPCOverallAverage/v/0                                                  -103.3971               -169.7073
+LPCOverallAverage/v/1                                                    76.6556                -53.1394
+LPCOverallAverage/v/2                                                  -123.8083                 22.0212
+LPCOverallAverage/v/3                                                   -63.1621                -222.273
+LPCOverallAverage/v/4                                                   203.2041                 39.7304
+LPCOverallAverage/v/5                                                    69.7936                118.0324
+LPCOverallAverage/v/6                                                  -220.9661               -165.2524
+LPCOverallAverage/v/7                                                   -329.469               -212.4573
+LPCOverallAverage/v/8                                                   -139.771               -130.9517
+MethodofMomentsOverallAverage/v/0                                         7.4692                 98.0442
+MethodofMomentsOverallAverage/v/1                                         0.0569                  1.1709
+MethodofMomentsOverallAverage/v/2                                        -0.0395                  0.0259
+MethodofMomentsOverallAverage/v/3                                         0.0001                 -0.0001
+MethodofMomentsOverallAverage/v/4                                             -0                      -0
+AreaMethodofMomentsofMFCCsOverallAverage/v/0                             -0.2803                  9.7307
+AreaMethodofMomentsofMFCCsOverallAverage/v/1                              0.1302                 -0.0778
+AreaMethodofMomentsofMFCCsOverallAverage/v/2                             -0.0012                 -0.0003
+AreaMethodofMomentsofMFCCsOverallAverage/v/3                                   0                       0
+AreaMethodofMomentsofMFCCsOverallAverage/v/4                                   0                       0
+AreaMethodofMomentsofMFCCsOverallAverage/v/5                                   0                       0
+AreaMethodofMomentsofMFCCsOverallAverage/v/6                                  -0                       0
+AreaMethodofMomentsofMFCCsOverallAverage/v/7                                  -0                      -0
+AreaMethodofMomentsofMFCCsOverallAverage/v/8                                  -0                      -0
+AreaMethodofMomentsofMFCCsOverallAverage/v/9                                  -0                      -0
+Intercept                                                              5552.5452              11208.0941
+
+
+Odds Ratios...
+                                                                           Class
+Variable                                                                    Calm                   Happy
+========================================================================================================
+SpectralCentroidOverallStandardDeviation                                  0.9927                  0.2113
+SpectralRolloffPointOverallStandardDeviation                                   0                       0
+SpectralFluxOverallStandardDeviation                                    Infinity                Infinity
+CompactnessOverallStandardDeviation                                       0.9004                  1.2492
+SpectralVariabilityOverallStandardDeviation                             Infinity                Infinity
+RootMeanSquareOverallStandardDeviation                                  Infinity                       0
+FractionOfLowEnergyWindowsOverallStandardDeviation          4.974957838701652E31                       0
+ZeroCrossingsOverallStandardDeviation                                     1.1502                  0.1718
+StrongestBeatOverallStandardDeviation                                     0.1721                  0.4867
+BeatSumOverallStandardDeviation                                           0.8046                  0.9037
+StrengthOfStrongestBeatOverallStandardDeviation                         Infinity                Infinity
+LPCOverallStandardDeviation/v/0                                         Infinity                       0
+LPCOverallStandardDeviation/v/1                                         Infinity          976181477.8553
+LPCOverallStandardDeviation/v/2                                                0                       0
+LPCOverallStandardDeviation/v/3                                                0                       0
+LPCOverallStandardDeviation/v/4                            3.789768893216436E175                       0
+LPCOverallStandardDeviation/v/5                           2.0966996768691534E104    7.104468774729523E11
+LPCOverallStandardDeviation/v/6                                                0   2.8324534239042617E12
+LPCOverallStandardDeviation/v/7                                         Infinity                Infinity
+LPCOverallStandardDeviation/v/8                                                0                       0
+MethodofMomentsOverallStandardDeviation/v/0               1.7723870025370395E301  1.4026682781420936E301
+MethodofMomentsOverallStandardDeviation/v/1                               0.0001                 36.2931
+MethodofMomentsOverallStandardDeviation/v/2                               0.9263                  0.9751
+MethodofMomentsOverallStandardDeviation/v/3                               0.9999                  1.0008
+MethodofMomentsOverallStandardDeviation/v/4                                    1                       1
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/0                         0                       0
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/1                    0.2174                  0.0534
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2                     1.005                  1.0003
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/3                         1                       1
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4                         1                       1
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5                         1                       1
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/6                         1                       1
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7                         1                       1
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8                         1                       1
+AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/9                         1                       1
+SpectralCentroidOverallAverage                                            0.1515                  1.1023
+SpectralRolloffPointOverallAverage                                             0    7.844620368600061E47
+SpectralFluxOverallAverage                                                     0                Infinity
+CompactnessOverallAverage                                                 1.3152                   0.857
+SpectralVariabilityOverallAverage                                              0                       0
+RootMeanSquareOverallAverage                                                   0                       0
+FractionOfLowEnergyWindowsOverallAverage                                       0                       0
+ZeroCrossingsOverallAverage                                                0.464                  1.7212
+StrongestBeatOverallAverage                                               0.4614                  0.5097
+BeatSumOverallAverage                                                      1.093                  0.9342
+StrengthOfStrongestBeatOverallAverage                                   Infinity                       0
+LPCOverallAverage/v/0                                                          0                       0
+LPCOverallAverage/v/1                                       1.954892545302965E33                       0
+LPCOverallAverage/v/2                                                          0         3661665422.9282
+LPCOverallAverage/v/3                                                          0                       0
+LPCOverallAverage/v/4                                      1.7799902148536455E88    1.797524063402576E17
+LPCOverallAverage/v/5                                      2.0462458815872207E30   1.8232309205102084E51
+LPCOverallAverage/v/6                                                          0                       0
+LPCOverallAverage/v/7                                                          0                       0
+LPCOverallAverage/v/8                                                          0                       0
+MethodofMomentsOverallAverage/v/0                                      1753.2538    3.802277162498418E42
+MethodofMomentsOverallAverage/v/1                                         1.0585                  3.2248
+MethodofMomentsOverallAverage/v/2                                         0.9613                  1.0262
+MethodofMomentsOverallAverage/v/3                                         1.0001                  0.9999
+MethodofMomentsOverallAverage/v/4                                              1                       1
+AreaMethodofMomentsofMFCCsOverallAverage/v/0                              0.7556              16825.5433
+AreaMethodofMomentsofMFCCsOverallAverage/v/1                              1.1391                  0.9251
+AreaMethodofMomentsofMFCCsOverallAverage/v/2                              0.9988                  0.9997
+AreaMethodofMomentsofMFCCsOverallAverage/v/3                                   1                       1
+AreaMethodofMomentsofMFCCsOverallAverage/v/4                                   1                       1
+AreaMethodofMomentsofMFCCsOverallAverage/v/5                                   1                       1
+AreaMethodofMomentsofMFCCsOverallAverage/v/6                                   1                       1
+AreaMethodofMomentsofMFCCsOverallAverage/v/7                                   1                       1
+AreaMethodofMomentsofMFCCsOverallAverage/v/8                                   1                       1
+AreaMethodofMomentsofMFCCsOverallAverage/v/9                                   1                       1
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         107               66.0494 %
+Incorrectly Classified Instances        55               33.9506 %
+Kappa statistic                          0.4909
+Mean absolute error                      0.2243
+Root mean squared error                  0.4693
+Relative absolute error                 50.4734 %
+Root relative squared error             99.5394 %
+Total Number of Instances              162     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.564    0.215    0.574      0.564    0.569      0.350    0.775     0.597     Calm
+                 0.727    0.112    0.769      0.727    0.748      0.624    0.903     0.844     Happy
+                 0.692    0.182    0.643      0.692    0.667      0.501    0.842     0.671     Sad
+Weighted Avg.    0.660    0.169    0.662      0.660    0.661      0.492    0.840     0.705     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 31 10 14 |  a = Calm
+  9 40  6 |  b = Happy
+ 14  2 36 |  c = Sad
+

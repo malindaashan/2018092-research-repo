@@ -1,0 +1,359 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     feature_values_v3
+Instances:    162
+Attributes:   73
+              SpectralCentroidOverallStandardDeviation
+              SpectralRolloffPointOverallStandardDeviation
+              SpectralFluxOverallStandardDeviation
+              CompactnessOverallStandardDeviation
+              SpectralVariabilityOverallStandardDeviation
+              RootMeanSquareOverallStandardDeviation
+              FractionOfLowEnergyWindowsOverallStandardDeviation
+              ZeroCrossingsOverallStandardDeviation
+              StrongestBeatOverallStandardDeviation
+              BeatSumOverallStandardDeviation
+              StrengthOfStrongestBeatOverallStandardDeviation
+              LPCOverallStandardDeviation/v/0
+              LPCOverallStandardDeviation/v/1
+              LPCOverallStandardDeviation/v/2
+              LPCOverallStandardDeviation/v/3
+              LPCOverallStandardDeviation/v/4
+              LPCOverallStandardDeviation/v/5
+              LPCOverallStandardDeviation/v/6
+              LPCOverallStandardDeviation/v/7
+              LPCOverallStandardDeviation/v/8
+              LPCOverallStandardDeviation/v/9
+              MethodofMomentsOverallStandardDeviation/v/0
+              MethodofMomentsOverallStandardDeviation/v/1
+              MethodofMomentsOverallStandardDeviation/v/2
+              MethodofMomentsOverallStandardDeviation/v/3
+              MethodofMomentsOverallStandardDeviation/v/4
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/0
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/1
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/3
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/6
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/9
+              SpectralCentroidOverallAverage
+              SpectralRolloffPointOverallAverage
+              SpectralFluxOverallAverage
+              CompactnessOverallAverage
+              SpectralVariabilityOverallAverage
+              RootMeanSquareOverallAverage
+              FractionOfLowEnergyWindowsOverallAverage
+              ZeroCrossingsOverallAverage
+              StrongestBeatOverallAverage
+              BeatSumOverallAverage
+              StrengthOfStrongestBeatOverallAverage
+              LPCOverallAverage/v/0
+              LPCOverallAverage/v/1
+              LPCOverallAverage/v/2
+              LPCOverallAverage/v/3
+              LPCOverallAverage/v/4
+              LPCOverallAverage/v/5
+              LPCOverallAverage/v/6
+              LPCOverallAverage/v/7
+              LPCOverallAverage/v/8
+              LPCOverallAverage/v/9
+              MethodofMomentsOverallAverage/v/0
+              MethodofMomentsOverallAverage/v/1
+              MethodofMomentsOverallAverage/v/2
+              MethodofMomentsOverallAverage/v/3
+              MethodofMomentsOverallAverage/v/4
+              AreaMethodofMomentsofMFCCsOverallAverage/v/0
+              AreaMethodofMomentsofMFCCsOverallAverage/v/1
+              AreaMethodofMomentsofMFCCsOverallAverage/v/2
+              AreaMethodofMomentsofMFCCsOverallAverage/v/3
+              AreaMethodofMomentsofMFCCsOverallAverage/v/4
+              AreaMethodofMomentsofMFCCsOverallAverage/v/5
+              AreaMethodofMomentsofMFCCsOverallAverage/v/6
+              AreaMethodofMomentsofMFCCsOverallAverage/v/7
+              AreaMethodofMomentsofMFCCsOverallAverage/v/8
+              AreaMethodofMomentsofMFCCsOverallAverage/v/9
+              label
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: Calm, Happy
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1046 * (normalized) SpectralCentroidOverallStandardDeviation
+ +       0.7444 * (normalized) SpectralRolloffPointOverallStandardDeviation
+ +       0.3208 * (normalized) SpectralFluxOverallStandardDeviation
+ +       0.37   * (normalized) CompactnessOverallStandardDeviation
+ +       0.0363 * (normalized) SpectralVariabilityOverallStandardDeviation
+ +      -0.1044 * (normalized) RootMeanSquareOverallStandardDeviation
+ +      -2.5633 * (normalized) FractionOfLowEnergyWindowsOverallStandardDeviation
+ +      -0.1624 * (normalized) ZeroCrossingsOverallStandardDeviation
+ +       0.9018 * (normalized) StrongestBeatOverallStandardDeviation
+ +      -0.6502 * (normalized) BeatSumOverallStandardDeviation
+ +      -0.4841 * (normalized) StrengthOfStrongestBeatOverallStandardDeviation
+ +      -0.2754 * (normalized) LPCOverallStandardDeviation/v/0
+ +      -0.478  * (normalized) LPCOverallStandardDeviation/v/1
+ +       0.246  * (normalized) LPCOverallStandardDeviation/v/2
+ +       1.557  * (normalized) LPCOverallStandardDeviation/v/3
+ +      -0.2452 * (normalized) LPCOverallStandardDeviation/v/4
+ +      -0.7737 * (normalized) LPCOverallStandardDeviation/v/5
+ +       0.2902 * (normalized) LPCOverallStandardDeviation/v/6
+ +      -0.2244 * (normalized) LPCOverallStandardDeviation/v/7
+ +      -0.1431 * (normalized) LPCOverallStandardDeviation/v/8
+ +       0.6564 * (normalized) MethodofMomentsOverallStandardDeviation/v/0
+ +      -0.0485 * (normalized) MethodofMomentsOverallStandardDeviation/v/1
+ +      -0.0733 * (normalized) MethodofMomentsOverallStandardDeviation/v/2
+ +      -0.5916 * (normalized) MethodofMomentsOverallStandardDeviation/v/3
+ +      -0.3632 * (normalized) MethodofMomentsOverallStandardDeviation/v/4
+ +      -0.7788 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/0
+ +      -0.5673 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/1
+ +       0.248  * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2
+ +       0.0897 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/3
+ +       0.2703 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4
+ +      -0.122  * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5
+ +       0.1127 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/6
+ +       0.2744 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7
+ +      -0.1197 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8
+ +      -0.4472 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/9
+ +       0.042  * (normalized) SpectralCentroidOverallAverage
+ +       0.293  * (normalized) SpectralRolloffPointOverallAverage
+ +       1.5479 * (normalized) SpectralFluxOverallAverage
+ +      -1.9792 * (normalized) CompactnessOverallAverage
+ +       0.0127 * (normalized) SpectralVariabilityOverallAverage
+ +       0.2613 * (normalized) RootMeanSquareOverallAverage
+ +       0.1168 * (normalized) FractionOfLowEnergyWindowsOverallAverage
+ +       0.2068 * (normalized) ZeroCrossingsOverallAverage
+ +      -1.0594 * (normalized) StrongestBeatOverallAverage
+ +       0.08   * (normalized) BeatSumOverallAverage
+ +      -0.136  * (normalized) StrengthOfStrongestBeatOverallAverage
+ +      -0.3375 * (normalized) LPCOverallAverage/v/0
+ +      -0.195  * (normalized) LPCOverallAverage/v/1
+ +       0.1227 * (normalized) LPCOverallAverage/v/2
+ +       0.0851 * (normalized) LPCOverallAverage/v/3
+ +      -0.1427 * (normalized) LPCOverallAverage/v/4
+ +      -0.4759 * (normalized) LPCOverallAverage/v/5
+ +      -0.3783 * (normalized) LPCOverallAverage/v/6
+ +       0.302  * (normalized) LPCOverallAverage/v/7
+ +      -0.1908 * (normalized) LPCOverallAverage/v/8
+ +       1.1242 * (normalized) MethodofMomentsOverallAverage/v/0
+ +       0.3536 * (normalized) MethodofMomentsOverallAverage/v/1
+ +       0.5966 * (normalized) MethodofMomentsOverallAverage/v/2
+ +       0.3563 * (normalized) MethodofMomentsOverallAverage/v/3
+ +       0.0905 * (normalized) MethodofMomentsOverallAverage/v/4
+ +       1.1242 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/0
+ +       0.2199 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/1
+ +       0.3252 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/2
+ +      -0.1844 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/3
+ +      -0.3201 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/4
+ +       0.0873 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/5
+ +       0.1738 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/6
+ +       0.3269 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/7
+ +      -0.0843 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/8
+ +      -0.4362 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/9
+ -       0.1929
+
+Number of kernel evaluations: 2829 (85.066% cached)
+
+Classifier for classes: Calm, Sad
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.119  * (normalized) SpectralCentroidOverallStandardDeviation
+ +       0.3234 * (normalized) SpectralRolloffPointOverallStandardDeviation
+ +      -0.8084 * (normalized) SpectralFluxOverallStandardDeviation
+ +      -0.3412 * (normalized) CompactnessOverallStandardDeviation
+ +      -0.2825 * (normalized) SpectralVariabilityOverallStandardDeviation
+ +      -0.5247 * (normalized) RootMeanSquareOverallStandardDeviation
+ +      -0.331  * (normalized) FractionOfLowEnergyWindowsOverallStandardDeviation
+ +       0.3027 * (normalized) ZeroCrossingsOverallStandardDeviation
+ +       0.8347 * (normalized) StrongestBeatOverallStandardDeviation
+ +       0.8992 * (normalized) BeatSumOverallStandardDeviation
+ +      -1.0016 * (normalized) StrengthOfStrongestBeatOverallStandardDeviation
+ +      -0.5307 * (normalized) LPCOverallStandardDeviation/v/0
+ +      -0.3427 * (normalized) LPCOverallStandardDeviation/v/1
+ +       1.9632 * (normalized) LPCOverallStandardDeviation/v/2
+ +       1.638  * (normalized) LPCOverallStandardDeviation/v/3
+ +       0.0363 * (normalized) LPCOverallStandardDeviation/v/4
+ +      -0.4094 * (normalized) LPCOverallStandardDeviation/v/5
+ +       0.8793 * (normalized) LPCOverallStandardDeviation/v/6
+ +       0.4775 * (normalized) LPCOverallStandardDeviation/v/7
+ +       1.3245 * (normalized) LPCOverallStandardDeviation/v/8
+ +      -1.1706 * (normalized) MethodofMomentsOverallStandardDeviation/v/0
+ +      -0.1209 * (normalized) MethodofMomentsOverallStandardDeviation/v/1
+ +       0.0683 * (normalized) MethodofMomentsOverallStandardDeviation/v/2
+ +      -0.2362 * (normalized) MethodofMomentsOverallStandardDeviation/v/3
+ +      -0.1498 * (normalized) MethodofMomentsOverallStandardDeviation/v/4
+ +      -0.5091 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/0
+ +       0.0803 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/1
+ +      -0.337  * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2
+ +       0.2127 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/3
+ +      -0.2447 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4
+ +      -0.1513 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5
+ +       0.2336 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/6
+ +      -0.2314 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7
+ +      -0.1476 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8
+ +      -0.0651 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/9
+ +       0.1679 * (normalized) SpectralCentroidOverallAverage
+ +       0.2302 * (normalized) SpectralRolloffPointOverallAverage
+ +      -0.6072 * (normalized) SpectralFluxOverallAverage
+ +       0.7921 * (normalized) CompactnessOverallAverage
+ +       0.3849 * (normalized) SpectralVariabilityOverallAverage
+ +       0.2652 * (normalized) RootMeanSquareOverallAverage
+ +      -0.1535 * (normalized) FractionOfLowEnergyWindowsOverallAverage
+ +       0.1554 * (normalized) ZeroCrossingsOverallAverage
+ +       1.422  * (normalized) StrongestBeatOverallAverage
+ +       0.0105 * (normalized) BeatSumOverallAverage
+ +      -0.8262 * (normalized) StrengthOfStrongestBeatOverallAverage
+ +       0.1015 * (normalized) LPCOverallAverage/v/0
+ +       0.1768 * (normalized) LPCOverallAverage/v/1
+ +       0.3183 * (normalized) LPCOverallAverage/v/2
+ +       0.2092 * (normalized) LPCOverallAverage/v/3
+ +      -1.0711 * (normalized) LPCOverallAverage/v/4
+ +       0.3065 * (normalized) LPCOverallAverage/v/5
+ +       0.2723 * (normalized) LPCOverallAverage/v/6
+ +       0.588  * (normalized) LPCOverallAverage/v/7
+ +       0.6824 * (normalized) LPCOverallAverage/v/8
+ +      -0.2029 * (normalized) MethodofMomentsOverallAverage/v/0
+ +      -0.0047 * (normalized) MethodofMomentsOverallAverage/v/1
+ +       0.0963 * (normalized) MethodofMomentsOverallAverage/v/2
+ +      -0.0535 * (normalized) MethodofMomentsOverallAverage/v/3
+ +       0.0165 * (normalized) MethodofMomentsOverallAverage/v/4
+ +      -0.2019 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/0
+ +       0.2307 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/1
+ +      -0.098  * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/2
+ +      -0.2411 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/3
+ +       0.1518 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/4
+ +       0.065  * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/5
+ +       0.2403 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/6
+ +      -0.1298 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/7
+ +      -0.0583 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/8
+ +      -0.0336 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/9
+ -       4.6381
+
+Number of kernel evaluations: 2658 (91.914% cached)
+
+Classifier for classes: Happy, Sad
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.1882 * (normalized) SpectralCentroidOverallStandardDeviation
+ +       0.2481 * (normalized) SpectralRolloffPointOverallStandardDeviation
+ +      -0.8763 * (normalized) SpectralFluxOverallStandardDeviation
+ +       0.2387 * (normalized) CompactnessOverallStandardDeviation
+ +       0.2488 * (normalized) SpectralVariabilityOverallStandardDeviation
+ +       0.2669 * (normalized) RootMeanSquareOverallStandardDeviation
+ +       1.3875 * (normalized) FractionOfLowEnergyWindowsOverallStandardDeviation
+ +       0.5748 * (normalized) ZeroCrossingsOverallStandardDeviation
+ +      -0.7201 * (normalized) StrongestBeatOverallStandardDeviation
+ +       0.9779 * (normalized) BeatSumOverallStandardDeviation
+ +       0.4672 * (normalized) StrengthOfStrongestBeatOverallStandardDeviation
+ +       0.3675 * (normalized) LPCOverallStandardDeviation/v/0
+ +       0.5954 * (normalized) LPCOverallStandardDeviation/v/1
+ +       0.5605 * (normalized) LPCOverallStandardDeviation/v/2
+ +      -0.6475 * (normalized) LPCOverallStandardDeviation/v/3
+ +       0.6459 * (normalized) LPCOverallStandardDeviation/v/4
+ +       0.4876 * (normalized) LPCOverallStandardDeviation/v/5
+ +       0.1009 * (normalized) LPCOverallStandardDeviation/v/6
+ +       0.5802 * (normalized) LPCOverallStandardDeviation/v/7
+ +       0.7598 * (normalized) LPCOverallStandardDeviation/v/8
+ +      -0.9146 * (normalized) MethodofMomentsOverallStandardDeviation/v/0
+ +      -0.0464 * (normalized) MethodofMomentsOverallStandardDeviation/v/1
+ +       0.1141 * (normalized) MethodofMomentsOverallStandardDeviation/v/2
+ +      -0.128  * (normalized) MethodofMomentsOverallStandardDeviation/v/3
+ +      -0.1107 * (normalized) MethodofMomentsOverallStandardDeviation/v/4
+ +       0.5156 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/0
+ +       0.464  * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/1
+ +      -0.4109 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2
+ +       0.0122 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/3
+ +      -0.3548 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4
+ +      -0.2589 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5
+ +      -0.0086 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/6
+ +      -0.3527 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7
+ +      -0.2589 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8
+ +      -0.1695 * (normalized) AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/9
+ +      -0.0749 * (normalized) SpectralCentroidOverallAverage
+ +      -0.1116 * (normalized) SpectralRolloffPointOverallAverage
+ +      -1.4684 * (normalized) SpectralFluxOverallAverage
+ +       2.0001 * (normalized) CompactnessOverallAverage
+ +      -0.0002 * (normalized) SpectralVariabilityOverallAverage
+ +      -0.1873 * (normalized) RootMeanSquareOverallAverage
+ +       0.0019 * (normalized) FractionOfLowEnergyWindowsOverallAverage
+ +      -0.1325 * (normalized) ZeroCrossingsOverallAverage
+ +       1.3004 * (normalized) StrongestBeatOverallAverage
+ +      -0.0682 * (normalized) BeatSumOverallAverage
+ +      -0.0103 * (normalized) StrengthOfStrongestBeatOverallAverage
+ +       0.0054 * (normalized) LPCOverallAverage/v/0
+ +       0.2441 * (normalized) LPCOverallAverage/v/1
+ +       0.2098 * (normalized) LPCOverallAverage/v/2
+ +       0.4526 * (normalized) LPCOverallAverage/v/3
+ +      -0.3626 * (normalized) LPCOverallAverage/v/4
+ +       0.4043 * (normalized) LPCOverallAverage/v/5
+ +      -0.1258 * (normalized) LPCOverallAverage/v/6
+ +       0.1778 * (normalized) LPCOverallAverage/v/7
+ +       0.4192 * (normalized) LPCOverallAverage/v/8
+ +      -0.7599 * (normalized) MethodofMomentsOverallAverage/v/0
+ +      -0.2622 * (normalized) MethodofMomentsOverallAverage/v/1
+ +      -0.2315 * (normalized) MethodofMomentsOverallAverage/v/2
+ +      -0.066  * (normalized) MethodofMomentsOverallAverage/v/3
+ +      -0.1075 * (normalized) MethodofMomentsOverallAverage/v/4
+ +      -0.7571 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/0
+ +      -0.0741 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/1
+ +      -0.3183 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/2
+ +       0.0477 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/3
+ +       0.3461 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/4
+ +       0.2439 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/5
+ +      -0.0428 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/6
+ +      -0.3435 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/7
+ +      -0.2433 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/8
+ +      -0.1691 * (normalized) AreaMethodofMomentsofMFCCsOverallAverage/v/9
+ -       2.9345
+
+Number of kernel evaluations: 2257 (83.817% cached)
+
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         123               75.9259 %
+Incorrectly Classified Instances        39               24.0741 %
+Kappa statistic                          0.6389
+Mean absolute error                      0.2867
+Root mean squared error                  0.3716
+Relative absolute error                 64.5036 %
+Root relative squared error             78.8112 %
+Total Number of Instances              162     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.673    0.150    0.698      0.673    0.685      0.528    0.768     0.593     Calm
+                 0.873    0.065    0.873      0.873    0.873      0.807    0.931     0.834     Happy
+                 0.731    0.145    0.704      0.731    0.717      0.580    0.831     0.631     Sad
+Weighted Avg.    0.759    0.120    0.759      0.759    0.759      0.639    0.843     0.687     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 37  5 13 |  a = Calm
+  4 48  3 |  b = Happy
+ 12  2 38 |  c = Sad
+

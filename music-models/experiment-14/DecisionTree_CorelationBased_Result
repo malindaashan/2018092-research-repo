@@ -1,0 +1,234 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.meta.AttributeSelectedClassifier -E "weka.attributeSelection.CorrelationAttributeEval " -S "weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 30" -W weka.classifiers.trees.J48 -- -C 0.25 -M 2
+Relation:     feature_values_v3
+Instances:    162
+Attributes:   73
+              SpectralCentroidOverallStandardDeviation
+              SpectralRolloffPointOverallStandardDeviation
+              SpectralFluxOverallStandardDeviation
+              CompactnessOverallStandardDeviation
+              SpectralVariabilityOverallStandardDeviation
+              RootMeanSquareOverallStandardDeviation
+              FractionOfLowEnergyWindowsOverallStandardDeviation
+              ZeroCrossingsOverallStandardDeviation
+              StrongestBeatOverallStandardDeviation
+              BeatSumOverallStandardDeviation
+              StrengthOfStrongestBeatOverallStandardDeviation
+              LPCOverallStandardDeviation/v/0
+              LPCOverallStandardDeviation/v/1
+              LPCOverallStandardDeviation/v/2
+              LPCOverallStandardDeviation/v/3
+              LPCOverallStandardDeviation/v/4
+              LPCOverallStandardDeviation/v/5
+              LPCOverallStandardDeviation/v/6
+              LPCOverallStandardDeviation/v/7
+              LPCOverallStandardDeviation/v/8
+              LPCOverallStandardDeviation/v/9
+              MethodofMomentsOverallStandardDeviation/v/0
+              MethodofMomentsOverallStandardDeviation/v/1
+              MethodofMomentsOverallStandardDeviation/v/2
+              MethodofMomentsOverallStandardDeviation/v/3
+              MethodofMomentsOverallStandardDeviation/v/4
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/0
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/1
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/3
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/6
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8
+              AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/9
+              SpectralCentroidOverallAverage
+              SpectralRolloffPointOverallAverage
+              SpectralFluxOverallAverage
+              CompactnessOverallAverage
+              SpectralVariabilityOverallAverage
+              RootMeanSquareOverallAverage
+              FractionOfLowEnergyWindowsOverallAverage
+              ZeroCrossingsOverallAverage
+              StrongestBeatOverallAverage
+              BeatSumOverallAverage
+              StrengthOfStrongestBeatOverallAverage
+              LPCOverallAverage/v/0
+              LPCOverallAverage/v/1
+              LPCOverallAverage/v/2
+              LPCOverallAverage/v/3
+              LPCOverallAverage/v/4
+              LPCOverallAverage/v/5
+              LPCOverallAverage/v/6
+              LPCOverallAverage/v/7
+              LPCOverallAverage/v/8
+              LPCOverallAverage/v/9
+              MethodofMomentsOverallAverage/v/0
+              MethodofMomentsOverallAverage/v/1
+              MethodofMomentsOverallAverage/v/2
+              MethodofMomentsOverallAverage/v/3
+              MethodofMomentsOverallAverage/v/4
+              AreaMethodofMomentsofMFCCsOverallAverage/v/0
+              AreaMethodofMomentsofMFCCsOverallAverage/v/1
+              AreaMethodofMomentsofMFCCsOverallAverage/v/2
+              AreaMethodofMomentsofMFCCsOverallAverage/v/3
+              AreaMethodofMomentsofMFCCsOverallAverage/v/4
+              AreaMethodofMomentsofMFCCsOverallAverage/v/5
+              AreaMethodofMomentsofMFCCsOverallAverage/v/6
+              AreaMethodofMomentsofMFCCsOverallAverage/v/7
+              AreaMethodofMomentsofMFCCsOverallAverage/v/8
+              AreaMethodofMomentsofMFCCsOverallAverage/v/9
+              label
+Test mode:    10-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+AttributeSelectedClassifier:
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 73 label):
+	Correlation Ranking Filter
+Ranked attributes:
+ 0.424    39 SpectralFluxOverallAverage
+ 0.398    58 MethodofMomentsOverallAverage/v/0
+ 0.397    63 AreaMethodofMomentsofMFCCsOverallAverage/v/0
+ 0.394     7 FractionOfLowEnergyWindowsOverallStandardDeviation
+ 0.383    22 MethodofMomentsOverallStandardDeviation/v/0
+ 0.375    40 CompactnessOverallAverage
+ 0.298     3 SpectralFluxOverallStandardDeviation
+ 0.276    29 AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2
+ 0.274    67 AreaMethodofMomentsofMFCCsOverallAverage/v/4
+ 0.274    70 AreaMethodofMomentsofMFCCsOverallAverage/v/7
+ 0.274    31 AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4
+ 0.274    34 AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7
+ 0.272    65 AreaMethodofMomentsofMFCCsOverallAverage/v/2
+ 0.267    42 RootMeanSquareOverallAverage
+ 0.265    59 MethodofMomentsOverallAverage/v/1
+ 0.264    60 MethodofMomentsOverallAverage/v/2
+ 0.263    46 BeatSumOverallAverage
+ 0.243    14 LPCOverallStandardDeviation/v/2
+ 0.24     32 AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5
+ 0.24     35 AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8
+ 0.239    71 AreaMethodofMomentsofMFCCsOverallAverage/v/8
+ 0.239    68 AreaMethodofMomentsofMFCCsOverallAverage/v/5
+ 0.235    49 LPCOverallAverage/v/1
+ 0.23     45 StrongestBeatOverallAverage
+ 0.225    41 SpectralVariabilityOverallAverage
+ 0.221    15 LPCOverallStandardDeviation/v/3
+ 0.214    20 LPCOverallStandardDeviation/v/8
+ 0.209    44 ZeroCrossingsOverallAverage
+ 0.208    11 StrengthOfStrongestBeatOverallStandardDeviation
+ 0.204     2 SpectralRolloffPointOverallStandardDeviation
+
+Selected attributes: 39,58,63,7,22,40,3,29,67,70,31,34,65,42,59,60,46,14,32,35,71,68,49,45,41,15,20,44,11,2 : 30
+
+
+Header of reduced data:
+@relation 'feature_values_v3-weka.filters.unsupervised.attribute.Remove-V-R39,58,63,7,22,40,3,29,67,70,31,34,65,42,59-60,46,14,32,35,71,68,49,45,41,15,20,44,11,2,73'
+
+@attribute SpectralFluxOverallAverage numeric
+@attribute MethodofMomentsOverallAverage/v/0 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallAverage/v/0 numeric
+@attribute FractionOfLowEnergyWindowsOverallStandardDeviation numeric
+@attribute MethodofMomentsOverallStandardDeviation/v/0 numeric
+@attribute CompactnessOverallAverage numeric
+@attribute SpectralFluxOverallStandardDeviation numeric
+@attribute AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/2 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallAverage/v/4 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallAverage/v/7 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/4 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/7 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallAverage/v/2 numeric
+@attribute RootMeanSquareOverallAverage numeric
+@attribute MethodofMomentsOverallAverage/v/1 numeric
+@attribute MethodofMomentsOverallAverage/v/2 numeric
+@attribute BeatSumOverallAverage numeric
+@attribute LPCOverallStandardDeviation/v/2 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/5 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallStandardDeviation/v/8 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallAverage/v/8 numeric
+@attribute AreaMethodofMomentsofMFCCsOverallAverage/v/5 numeric
+@attribute LPCOverallAverage/v/1 numeric
+@attribute StrongestBeatOverallAverage numeric
+@attribute SpectralVariabilityOverallAverage numeric
+@attribute LPCOverallStandardDeviation/v/3 numeric
+@attribute LPCOverallStandardDeviation/v/8 numeric
+@attribute ZeroCrossingsOverallAverage numeric
+@attribute StrengthOfStrongestBeatOverallStandardDeviation numeric
+@attribute SpectralRolloffPointOverallStandardDeviation numeric
+@attribute label {Calm,Happy,Sad}
+
+@data
+
+
+Classifier Model
+J48 pruned tree
+------------------
+
+FractionOfLowEnergyWindowsOverallStandardDeviation <= 0.04283: Happy (35.0/1.0)
+FractionOfLowEnergyWindowsOverallStandardDeviation > 0.04283
+|   SpectralFluxOverallAverage <= 0.003151
+|   |   LPCOverallStandardDeviation/v/3 <= 0.1848
+|   |   |   LPCOverallAverage/v/1 <= 0.4566
+|   |   |   |   LPCOverallStandardDeviation/v/8 <= 0.1195: Calm (25.0/1.0)
+|   |   |   |   LPCOverallStandardDeviation/v/8 > 0.1195
+|   |   |   |   |   LPCOverallStandardDeviation/v/2 <= 0.2674
+|   |   |   |   |   |   MethodofMomentsOverallStandardDeviation/v/0 <= 0.1058: Sad (3.0)
+|   |   |   |   |   |   MethodofMomentsOverallStandardDeviation/v/0 > 0.1058
+|   |   |   |   |   |   |   LPCOverallStandardDeviation/v/3 <= 0.1775: Calm (12.0)
+|   |   |   |   |   |   |   LPCOverallStandardDeviation/v/3 > 0.1775
+|   |   |   |   |   |   |   |   SpectralFluxOverallStandardDeviation <= 0.002139: Sad (4.0/1.0)
+|   |   |   |   |   |   |   |   SpectralFluxOverallStandardDeviation > 0.002139: Calm (4.0)
+|   |   |   |   |   LPCOverallStandardDeviation/v/2 > 0.2674: Sad (3.0)
+|   |   |   LPCOverallAverage/v/1 > 0.4566: Sad (7.0/1.0)
+|   |   LPCOverallStandardDeviation/v/3 > 0.1848
+|   |   |   CompactnessOverallAverage <= 1641
+|   |   |   |   SpectralFluxOverallAverage <= 0.001716: Calm (4.0)
+|   |   |   |   SpectralFluxOverallAverage > 0.001716: Happy (5.0)
+|   |   |   CompactnessOverallAverage > 1641
+|   |   |   |   FractionOfLowEnergyWindowsOverallStandardDeviation <= 0.04738
+|   |   |   |   |   LPCOverallStandardDeviation/v/8 <= 0.1269: Happy (4.0/1.0)
+|   |   |   |   |   LPCOverallStandardDeviation/v/8 > 0.1269: Sad (4.0)
+|   |   |   |   FractionOfLowEnergyWindowsOverallStandardDeviation > 0.04738
+|   |   |   |   |   LPCOverallStandardDeviation/v/2 <= 0.2037: Calm (2.0)
+|   |   |   |   |   LPCOverallStandardDeviation/v/2 > 0.2037: Sad (37.0/5.0)
+|   SpectralFluxOverallAverage > 0.003151: Happy (13.0/1.0)
+
+Number of Leaves  : 	15
+
+Size of the tree : 	29
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances         117               72.2222 %
+Incorrectly Classified Instances        45               27.7778 %
+Kappa statistic                          0.5826
+Mean absolute error                      0.2047
+Root mean squared error                  0.4158
+Relative absolute error                 46.0579 %
+Root relative squared error             88.182  %
+Total Number of Instances              162     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.709    0.215    0.629      0.709    0.667      0.481    0.763     0.545     Calm
+                 0.855    0.084    0.839      0.855    0.847      0.767    0.882     0.751     Happy
+                 0.596    0.118    0.705      0.596    0.646      0.502    0.693     0.576     Sad
+Weighted Avg.    0.722    0.139    0.725      0.722    0.721      0.585    0.781     0.625     
+
+=== Confusion Matrix ===
+
+  a  b  c   <-- classified as
+ 39  4 12 |  a = Calm
+  7 47  1 |  b = Happy
+ 16  5 31 |  c = Sad
+
